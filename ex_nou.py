@@ -10,3 +10,7 @@ Utilizatorul trebuie s apoatya sa le introduca de la tastatura.
 si tu sa le afisezi la ecran
 
 '''
+username = input('Introdu userul:')
+password = input('Introdu parola:')
+print(username)
+print(password)
