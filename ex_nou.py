@@ -12,5 +12,10 @@ si tu sa le afisezi la ecran
 '''
 username = input('Introdu userul:')
 password = input('Introdu parola:')
-print(username)
-print(password)
+# print(username)
+# print(password)
+
+if len(username) < 3:
+    print('Username too short.')
+else:
+    print('Login system ready.')
